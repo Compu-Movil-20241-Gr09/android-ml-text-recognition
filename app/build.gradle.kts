@@ -66,4 +66,20 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1")
+
+    // Camera
+    implementation("androidx.camera:camera-camera2:1.3.0-beta02")
+    implementation("androidx.camera:camera-lifecycle:1.3.0-beta02")
+    implementation("androidx.camera:camera-view:1.3.0-beta02")
+    implementation("androidx.camera:camera-extensions:1.3.0-beta02")
+
+    // Accompanist
+    implementation("com.google.accompanist:accompanist-permissions:0.31.6-rc")
 }
