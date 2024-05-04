@@ -82,4 +82,7 @@ dependencies {
 
     // Accompanist
     implementation("com.google.accompanist:accompanist-permissions:0.31.6-rc")
+
+    // Ml-kit Text Recognition
+    implementation("com.google.mlkit:text-recognition:16.0.0")
 }
