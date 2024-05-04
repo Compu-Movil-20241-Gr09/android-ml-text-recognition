@@ -33,11 +33,11 @@ fun PermissionScreen(
         ) {
             Text(
                 textAlign = TextAlign.Center,
-                text = "Please grant the permission to use the camera to use the core functionality of this app."
+                text = "Por favor, permite el acceso a la cámara."
             )
             Button(onClick = onRequestPermission) {
-                Icon(imageVector = Icons.Default.Settings, contentDescription = "Camera")
-                Text(text = "Grant permission")
+                Icon(imageVector = Icons.Default.Settings, contentDescription = "Camara")
+                Text(text = "Dar permisos")
             }
         }
     }

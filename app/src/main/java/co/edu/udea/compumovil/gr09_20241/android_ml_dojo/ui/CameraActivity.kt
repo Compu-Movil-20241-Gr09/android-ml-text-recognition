@@ -61,7 +61,7 @@ fun CameraScreen() {
                 .fillMaxWidth()
                 .background(androidx.compose.ui.graphics.Color.White)
                 .padding(16.dp),
-            text = detectedText,
+            text = "detectedText",
         )
     }
 }
